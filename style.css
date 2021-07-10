@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.peterName {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.background-img {
+    background-image: url(img/backgrond.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.imgTitle {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin-left: 30%;
+}
